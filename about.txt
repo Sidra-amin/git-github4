@@ -1,0 +1,104 @@
+<html>
+<head>
+  <style>
+header{
+   background-color:black;
+   color:white;
+   }
+header h1{
+   padding-top:5px;
+   padding-left:25%;
+   height:10px;
+   display:inline-block;
+    
+}
+.button{
+   
+   color:white;
+   text-decoration:none;
+   display:inline-block;
+   padding-left:20px;
+}
+.button:hover{
+  color:orange;
+}
+nav{
+  padding-left:38%;
+  display:inline;
+}
+
+
+.box{
+     top:0px;
+     padding:1px;
+     color:black;
+     background-color:#4CE2DE;
+     opacity:0.8;
+     height:140px;
+     width:1332px;
+     
+}
+.box h1,p{
+    padding-left:21%;
+}
+
+
+.box h2{
+   top:40%;
+   left:37%;
+   position:absolute;
+  color:white;
+}
+.txt{
+   top:45%;
+   left:25%;
+   position:absolute;
+   width350px;
+   height:60px;
+   background-color:orange;
+   opacity:0.6;
+   border-radius: 18px;
+   font-size:15px;
+   padding-left:15px;
+   padding-top:15px;
+}
+.txt2{
+   top:58%;
+   left:25%;
+   position:absolute;
+   width350px;
+   height:60px;
+   background-color:orange;
+   opacity:0.6;
+   border-radius: 18px;
+   font-size:15px;
+   padding-left:15px;
+   padding-top:15px;
+}
+
+</style>
+</head>
+<body>
+<header>
+  <h1><b>HBT</b></h1>
+  <nav><a href="sid.html"class="button">Home</a>
+  <a href="about.html" class="button">About</a>
+ <a href="contact.html" class="button">Contact us</a></nav>
+  
+</header>
+<section>
+  <div class="box">
+   <h1><b><span style="color:orange">ABOUT</span> HOTEL BT</b></h1>
+ <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat metus at metus gravida,<br />
+ id dignissim nisi aliquam. Sed maximus quam sed nunc lobortis vulputate. Donec bibendum odio ac <br />
+ erat euismod, ac posuere turpis sagittis.</p>
+
+<img src="test-bg.jpg" height="1200" width="1333">
+<h2><b><span style="color:orange">What</span> Our guests Say</b></h2>
+<p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu feugiatlacus, vel mattis purus fames ac turpis egestas. </p>
+<p class="txt2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu feugiatlacus, vel mattis purus fames ac turpis egestas. </p>
+
+</div>
+</section>
+</body>
+</html>

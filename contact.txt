@@ -1,0 +1,88 @@
+<html>
+<head>
+<link rel="stylesheet" href="C:\sidra\css\fontawesome-free-5.13.0-web\css\all.css"> 
+  <style>
+header{
+   background-color:black;
+   color:white;
+   }
+header h1{
+   padding-top:5px;
+   padding-left:25%;
+   height:10px;
+   display:inline-block;
+    
+}
+.button{
+   
+   color:white;
+   text-decoration:none;
+   display:inline-block;
+   padding-left:20px;
+}
+.button:hover{
+  color:orange;
+}
+nav{
+  padding-left:38%;
+  display:inline;
+}
+h1{
+  padding-left:31%;
+}
+
+          form{
+          background-color:white;
+          padding-left:25%; 
+          height:50%;
+          width:50%;
+   
+          }
+footer{
+  
+  background-color:black;
+  }
+.button1{
+  color:white;
+  top:90%;
+  height:130px;
+  width:400px;
+  display:inline-block;
+  text-align:center;
+  padding-top:10px;
+  padding-left:40px;
+  font-size:9px;
+
+  
+}
+
+
+</style>
+</head>
+<body>
+<header>
+  <h1><b>HBT</b></h1>
+  <nav><a href="sid.html"class="button">Home</a>
+  <a href="about.html" class="button">About</a>
+ <a href="contact.html" class="button">Contact us</a></nav>
+  
+</header>
+<h1><span style="color:orange"><b>Contact</span>Us</b></h1>
+<form>
+    <p>Please fill out this form to contact us.</p>
+      <label for ="First Name:"><b>First Name:</b></label>
+      <input type="text" name="firstname" size="40" maxlength="30" required="required" placeholder="Enter First Name">
+        <br /><br />
+       <label for ="Email Address:"><b>Email Address:</b></label>
+       <input type="email" name="emailaddress" size="40" maxlength="35"required="required" placeholder="Enter Email Address"><br />
+      <b>Message</b><br />
+      <textarea name="comment" id="comment" cols="60" rows="10" placeholder="Write something.....">
+       </textarea>
+     <br /> <input class="a" type="submit" value="Submit">
+</form>
+<footer>
+<div class="button1"><i class="fas fa-concierge-bell" style="color:white;font-size:43px"></i><br /><span style="font-size:20px"><b>Location</b></span><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+<div class="button1"><i class="fas fa-phone"style="color:white;font-size:40px"></i><br /><span style="font-size:20px"><b>Phone</b></span></div>
+<div class="button1"><i class="fas fa-envelope"style="color:white;font-size:40px"></i><br /><span style="font-size:20px"><b>Email</b></span></div>
+</body>
+</html>
